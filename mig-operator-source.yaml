@@ -6,6 +6,6 @@ metadata:
 spec:
   type: appregistry
   endpoint: https://quay.io/cnr
-  registryNamespace: konveyor
-  displayName: "Migration Operator"
+  registryNamespace: eriknelson
+  displayName: "eriknelson operator source"
   publisher: "ocp-migrate-team@redhat.com"
