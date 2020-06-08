@@ -214,14 +214,14 @@ spec:
         - /usr/local/bin/ao-logs
         - /tmp/ansible-operator/runner
         - stdout
-        image: quay.io/konveyor/mig-operator-container:non-admin
+        image: quay.io/eriknelson/mig-operator:non-admin
         imagePullPolicy: Always
         volumeMounts:
         - mountPath: /tmp/ansible-operator/runner
           name: runner
           readOnly: true
       - name: operator
-        image: quay.io/konveyor/mig-operator-container:non-admin
+        image: quay.io/eriknelson/mig-operator:non-admin
         imagePullPolicy: Always
         volumeMounts:
         - mountPath: /tmp/ansible-operator/runner
